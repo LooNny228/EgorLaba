@@ -8,7 +8,7 @@ Class Equation
     {
 
         if ($a == 0) {
-            throw new GaivoronskiyException("Ошибка: уравнения не существует.");
+            throw new Exception("Ошибка: уравнения не существует.");
         }
         MyLog::log("Определено, что это линейное уравнение");
         return $this->X = array(-($b / $a));
