@@ -3,19 +3,23 @@
 use Gaivoronskiy\MyLog;
 use Gaivoronskiy\QuEquation;
 
-include "core/core/EquationInterface.php";
+/*include "core/core/EquationInterface.php";
 include "core/core/LogAbstract.php";
 include "core/core/LogInterface.php";
 include "Gaivoronskiy/MyLog.php";
 include "Gaivoronskiy/Equation.php";
 include "Gaivoronskiy/QuEquation.php";
-include "Gaivoronskiy/Exception.php";
+include "Gaivoronskiy/Exception.php";*/
+require_once __DIR__ . './vendor/autoload.php';
 
 ini_set("display_errors", 1);
 error_reporting(-1);
 
 try {
-    MyLog::log("Версия программы: " . trim(file_get_contents('version')) );
+	if(!is_dir("log")){
+		mkdir("log", 0700);
+	}
+    //MyLog::log("Версия программы: " . trim(file_get_contents('version')) );
     $b = new QuEquation();
     $values = array();
 

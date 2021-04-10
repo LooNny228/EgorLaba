@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "50fbb2e208e763168e626ce8aee34e55",
+    "packages": [
+        {
+            "name": "loonny228/lab10",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LooNny228/Lab10.git",
+                "reference": "4d9766ed22a129941b3801b6a7868660f11f90b6"
+            },
+            "require": {
+                "rok9ru/trpo-core": "2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gaivoronskiy\\": "Gaivoronskiy"
+                }
+            },
+            "license": [
+                "-"
+            ],
+            "authors": [
+                {
+                    "name": "LooNny228",
+                    "email": "ropopo012@mail.ru"
+                }
+            ],
+            "description": "Gaivoronskiy",
+            "time": "2021-04-10T10:07:52+00:00"
+        },
+        {
+            "name": "rok9ru/trpo-core",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rok9ru/trpo-core",
+                "reference": "fd341399677df9ed17a71e4abb9230277ede5395"
+            },
+            "require": {
+                "php": "^7.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "core\\": "core"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Sleepplayer",
+                    "email": "rok_9@mail.ru"
+                }
+            ],
+            "description": "Project for lesson subject \"TRPO\" test project",
+            "time": "2021-01-13T12:08:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

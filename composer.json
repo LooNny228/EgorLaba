@@ -1,0 +1,33 @@
+{
+  "name": "loonny228/egorlaba",
+  "description": "lab10",
+  "type": "project",
+  "license": "-",
+  "authors": [
+    {
+      "name": "LooNny228",
+      "email": "ropopo012@mail.ru"
+    }
+  ],
+
+  "minimum-stability": "dev",
+    "scripts": {
+    "post-install-cmd": [
+        "git symbolic-ref --short -q HEAD>version"
+    ]
+	},
+
+  "require": {
+    "loonny228/lab10": "^1.0"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/rok9ru/trpo-core"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/LooNny228/Lab10.git"
+    }
+  ]
+}
