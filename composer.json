@@ -1,11 +1,11 @@
 {
   "name": "loonny228/egorlaba",
-  "description": "lab10",
+  "description": "lab11",
   "type": "project",
   "license": "-",
   "authors": [
     {
-      "name": "LooNny228",
+      "name": "loonny228",
       "email": "ropopo012@mail.ru"
     }
   ],
@@ -18,7 +18,7 @@
 	},
 
   "require": {
-    "loonny228/lab10": "^1.0"
+    "vadimloginov01/lab10": "2.0"
   },
   "repositories": [
     {
